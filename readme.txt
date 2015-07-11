@@ -17,11 +17,13 @@ Create custom appointment form using shortcode & get a full list of submitted fo
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+
 == Frequently Asked Questions ==
 
 1. Did this plugin support shortcode?
 
 Yes. You have to put [afm_contact] to display appoint form on any page.
+
 == Screenshots ==
 1. Admin settings of appointment form.
 
