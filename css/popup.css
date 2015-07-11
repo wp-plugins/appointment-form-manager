@@ -1,0 +1,51 @@
+#afm-inline { display: none; width: 100%; }
+
+#afm-popup-outer .afm-form-outer input[type="text"].error, 
+#afm-popup-outer .afm-form-outer input[type="email"].error, 
+#afm-popup-outer .afm-form-outer input[type="tel"].error, 
+#afm-popup-outer .afm-form-outer select.error, 
+#afm-popup-outer .afm-form-outer textarea.error{
+	border-color: #973d3d; 
+	border-style: solid; 
+	background: #f0bebe; 
+	color: #a35959;
+}
+
+#afm-popup-outer .afm-form-outer input[type="text"].focus, 
+#afm-popup-outer .afm-form-outer input[type="email"].focus, 
+#afm-popup-outer .afm-form-outer input[type="tel"].focus, 
+#afm-popup-outer .afm-form-outer select.focus, 
+#afm-popup-outer .afm-form-outer textarea.focus{
+	border-color: #973d3d; 
+	color: #a35959;
+}
+
+/* CUSTOM CSS */
+.fancybox-wrap.fancybox-type-inline{
+	width: 100% !important;
+	max-width: 780px;
+
+}
+.fancybox-inner{
+	width: 100% !important;
+}
+
+::-webkit-input-placeholder {
+   color: red;
+   opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+   opacity: 1;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+   opacity: 1;
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+   opacity: 1;
+}

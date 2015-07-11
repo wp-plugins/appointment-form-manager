@@ -1,0 +1,51 @@
+#afm-mail-list-table{
+	width: 100%;
+}
+.afm-admin-form-container{
+	width: 100%;
+	max-width: 600px;
+	border: 1px solid #000;
+}
+.afm-admin-form-wrapper{
+	padding: 0 20px 15px;
+}
+.afm-admin-form-container table{
+	width: 100%;
+}
+.afm-admin-form-container table td{
+	padding: 0 0 15px;
+}
+.afm-admin-form-container #afm-msg-table td:first-child{
+	width: 30%;
+	padding-right: 1%;
+}
+.afm-admin-form-container table input[type="text"],
+.afm-admin-form-container table input[type="email"],
+.afm-admin-form-container table input[type="tel"],
+.afm-admin-form-container table textarea{
+	width: 100%;
+}
+#afm-admin-email-saved-wrapper,
+#afm-response-email-saved-wrapper{
+	background: none repeat scroll 0 0 #a6e22e;
+}
+.option-saved-box{
+	color: #ff5a00;
+	max-width: 600px;
+	padding: 5px 15px;
+	width: 100%;
+}
+@media only screen and (max-width: 845px){
+.afm-admin-form-container{
+	max-width: 768px;
+}
+}
+@media only screen and (max-width: 639px){
+.afm-admin-form-container table td{
+	display: block;
+}
+.afm-admin-form-container #afm-msg-table td:first-child{
+	width: 100%;
+	padding-right: 0;
+}
+}
