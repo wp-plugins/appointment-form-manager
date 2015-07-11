@@ -31,6 +31,7 @@ Yes. You have to put [afm_contact] to display appoint form on any page.
 
 == Changelog ==
 = 1.0.0 =
+* Release date: 11/07/2015
 * First version of plugin.
 
 == Upgrade Notice ==
