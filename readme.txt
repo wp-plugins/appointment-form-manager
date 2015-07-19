@@ -1,5 +1,5 @@
 === Appointment Form Manager ===
-Contributors: Anil Meena 
+Contributors: aniloxzin
 Donate link:http://divyanshiinfotech.com/
 Tags: appointment form, contact form
 Requires at least: 4.2
